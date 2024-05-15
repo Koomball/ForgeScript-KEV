@@ -1,3 +1,12 @@
+# ForgeScript KEV (Koomballs Experimental Version)
+FS KEV is an experimental fork of ForgeScript which im using as a template to plan and design Nylon. <br>
+FS KEV also aims to further simplify making commands.
+
+## Planned Functions
+- $createSlashCommand[name;desc;type;code] <br>
+- $createPrefixCommand[name;desc;code] <br> 
+- $addSlashOption[name;desc;type;code]
+
 # ForgeScript
 ForgeScript is a comprehensive package that empowers you to effortlessly interact with Discord's API. It ensures scripting remains easy to learn and consistently effective.
 
