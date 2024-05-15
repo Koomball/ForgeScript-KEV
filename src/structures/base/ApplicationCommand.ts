@@ -8,7 +8,9 @@ export class ApplicationCommand {
     public constructor(public readonly options: IApplicationCommandData) {
         this.compiled = Compiler.compile(options.code, options.path)
     }
-
+    var code = return this.options.code;
+    console.log(code)
+    
     public get name() {
         return this.options.data.name
     }
